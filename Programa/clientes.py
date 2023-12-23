@@ -9,7 +9,7 @@ def imprime_lista_de_clientes(lista_de_clientes):
         Esta função recebe uma lista de clientes e imprime as informações
         de cada cliente na lista.
 
-        Args:
+        Argumentos:
             lista_de_clientes (list): Uma lista contendo dicionários, cada
                 dicionário representando as informações de um cliente.
                 Cada dicionário deve ter as chaves 'nome' e 'idade' como mínimo.
