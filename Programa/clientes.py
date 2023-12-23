@@ -65,9 +65,33 @@ def imprime_lista_de_clientes(lista_de_clientes):
 
 
 def cria_novo_cliente():
-    """Pedir os dados de um novo cliente
+    """
+        Solicita os dados de um novo cliente.
 
-    :return: dicionario com o novo cliente, {"nome": <<nome>>, "nif": <<nif>>, ...}
+        Esta função tem como objetivo interagir com o utilizador para obter os dados necessários
+        à criação de um novo registo de cliente. Os dados incluem o nome, NIF (Número de Identificação
+        Fiscal), e outros campos relevantes, os quais podem ser adaptados conforme necessário.
+
+        Returna:
+            dict: Um dicionário representando o novo cliente. O dicionário terá as seguintes chaves:
+                - "nome": O nome do cliente (str).
+                - "nif": O NIF (Número de Identificação Fiscal) do cliente (str).
+                - Outros campos relevantes podem ser adicionados conforme necessário.
+
+        Exemplo:
+            >>> novo_cliente = cria_novo_cliente()
+            >>> print(novo_cliente)
+            {"nome": "João Silva", "nif": "123456789", ...}
+
+        Nota:
+            Certifique-se de validar os dados de entrada antes de retornar o dicionário.
+            Em caso de dados inválidos, a função pode solicitar novamente as informações
+            ou levantar exceções conforme necessário.
+
+        Tarefas Pendentes:
+            - Solicitar os dados do cliente.
+            - Validar os dados para garantir que sejam válidos e relevantes.
+            - Devolver um dicionário com as informações do novo cliente.
     """
     # TODO: pedir os dados do cliente e não esquecer de os devolver
     # ...
