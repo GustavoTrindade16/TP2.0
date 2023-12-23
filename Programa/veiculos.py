@@ -1,3 +1,7 @@
+import os
+import sys
+sys.path.insert(0, os.path.abspath('../scr'))
+
 from io_terminal import imprime_lista
 
 nome_ficheiro_lista_de_veiculos = "lista_de_veiculos.pk"
