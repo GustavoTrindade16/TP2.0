@@ -46,3 +46,6 @@ def imprime_lista_de_faturas(lista_de_faturas):
         data_fatura = fatura['data']
 
         print(f"Cliente: {id_cliente}, Veículo: {id_veiculo}, Data: {data_fatura}")
+
+   # TODO: Pedir o resto dos dados da fatura, e não esquecer de os guardar no dicionario
+   # ...
