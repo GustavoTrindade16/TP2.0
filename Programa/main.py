@@ -1,6 +1,4 @@
-import os
-import sys
-sys.path.insert(0, os.path.abspath('../scr'))
+
 
 from clientes import cria_novo_cliente, imprime_lista_de_clientes
 from faturas import cria_nova_fatura, imprime_lista_de_faturas

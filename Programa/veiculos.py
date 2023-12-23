@@ -1,6 +1,4 @@
-import os
-import sys
-sys.path.insert(0, os.path.abspath('../scr'))
+
 
 from io_terminal import imprime_lista
 
