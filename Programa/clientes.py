@@ -58,6 +58,7 @@ def imprime_lista_de_clientes(lista_de_clientes):
                 nome = cliente['nome']
                 idade = cliente['idade']
                 print(f"Nome: {nome}, Idade: {idade}")
+                
     """
 
     #TODO: Implementar esta função
