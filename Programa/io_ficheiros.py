@@ -6,10 +6,15 @@ from faturas import nome_ficheiro_lista_de_faturas
 from veiculos import nome_ficheiro_lista_de_veiculos
 
 
-# TODO: Copie para aqui o código de cada uma das funções nos
-# ficheiros com o nome io_ficheiros*.py e faça um commit de cada vez
-# Quando este ficheiro estiver completo com todas as suas funções,
-# deve ser o unico ficheiro io_ficheiros.py existente, deve apagar
-# todos os outros ficheiros io_ficheiros-*.py, e inclusive estes comentários
+def le_de_ficheiro(nome_ficheiro):
+   """
+    Lê os dados de um ficheiro utilizando o formato de serialização pickle.
 
-# ...
+    :param nome_ficheiro: O nome do ficheiro onde estão armazenados os dados.
+    :type nome_ficheiro: str
+    :return: Os dados lidos do ficheiro (depende do formato de serialização usado).
+    :rtype: object
+    """
+
+    with open(nome_ficheiro, "rb") as f:
+        return pickle.load(f)
