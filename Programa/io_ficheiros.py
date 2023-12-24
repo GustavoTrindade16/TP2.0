@@ -18,8 +18,8 @@ def le_de_ficheiro(nome_ficheiro):
     :rtype: object
     """
 
-    with open(nome_ficheiro, "rb") as f:
-        return pickle.load(f)
+with open(nome_ficheiro, "rb") as f:
+    return pickle.load(f)
    
    def guarda_em_ficheiro(nome_do_ficheiro, dados):
     """Guarda os dados recebidos num ficheiro
